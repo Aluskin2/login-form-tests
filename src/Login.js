@@ -9,7 +9,6 @@ function Login() {
         e.preventDefault();
 
         try {
-            // Pełny URL do API (zmień na odpowiedni URL)
             const response = await fetch("http://localhost:5000/api/users");
             const users = await response.json();
 
